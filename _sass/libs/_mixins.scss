@@ -1,0 +1,56 @@
+/// Trasforma uno pseudo elemento :before in una icona Font Awesome.
+/// @param {string} $content Contenuto opzionale da usare. 
+/// @param {string} $where Pseudo elemento da usare (before o after)
+
+@mixin icon($content: false, $where: before) {
+    text-decoration: none;
+
+	&:#{$where} {
+
+		@if $content {
+			content: $content;
+		}
+
+		-moz-osx-font-smoothing: grayscale;
+		-webkit-font-smoothing: antialiased;
+		font-family: FontAwesome;
+		font-style: normal;
+		font-weight: normal;
+		text-transform: none !important;
+
+	}
+}
+
+/// Applica padding al contenuto, prendendo la variabile element-margin.
+/// @param {mixed} $tb Top / Bottom
+/// @param {mixed} $lr Left / Right
+/// @param {list} $pad Extra padding opzionale, in questo ordine: (top, right, bottom, left).
+/// @param {bool} $important Se True, applica il tag !important
+
+@mixin padding($tb, $lr, $pad: (0,0,0,0), $important: null) {
+    @if $important {
+		$important: '!important';
+	}
+
+	padding: ($tb + nth($pad,1)) ($lr + nth($pad,2)) max(0.1em, $tb - _size(element-margin) + nth($pad,3)) ($lr + nth($pad,4)) #{$important};
+}
+
+
+/// Codifica i dati del file SVG per fare in modo che IE non scoppi. (codepen.io/jakob-e/pen/YXXBrp)
+/// @param {string} $svg I dati del file SVG
+/// @return {string} Dati codificati del file SVG
+
+@function svg-url($svg) {
+
+	$svg: str-replace($svg, '"', '\'');
+	$svg: str-replace($svg, '<', '%3C');
+	$svg: str-replace($svg, '>', '%3E');
+	$svg: str-replace($svg, '&', '%26');
+	$svg: str-replace($svg, '#', '%23');
+	$svg: str-replace($svg, '{', '%7B');
+	$svg: str-replace($svg, '}', '%7D');
+	$svg: str-replace($svg, ';', '%3B');
+
+	@return url("data:image/svg+xml;charset=utf8,#{$svg}");
+
+}
