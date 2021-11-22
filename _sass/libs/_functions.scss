@@ -1,32 +1,32 @@
-/// Gets a duration value.
+/// Ottieni variabile durata.
 /// @param {string} $keys Key(s).
-/// @return {string} Value.
+/// @return {string} valore.
 @function _duration($keys...) {
 	@return val($duration, $keys...);
 }
 
-/// Gets a font value.
+/// Ottieni variabile font.
 /// @param {string} $keys Key(s).
 /// @return {string} Value.
 @function _font($keys...) {
 	@return val($font, $keys...);
 }
 
-/// Gets a misc value.
+/// Ottieni variabile misc.
 /// @param {string} $keys Key(s).
 /// @return {string} Value.
 @function _misc($keys...) {
 	@return val($misc, $keys...);
 }
 
-/// Gets a palette value.
+/// Ottieni variabile palette.
 /// @param {string} $keys Key(s).
 /// @return {string} Value.
 @function _palette($keys...) {
 	@return val($palette, $keys...);
 }
 
-/// Gets a size value.
+/// Ottieni variabile size.
 /// @param {string} $keys Key(s).
 /// @return {string} Value.
 @function _size($keys...) {
