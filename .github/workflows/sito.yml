@@ -3,7 +3,7 @@ on:
  push:
   branches:
   - master
- scheudle:
+ schedule:
   - cron: "0 0 * * *"
 
 jobs:
