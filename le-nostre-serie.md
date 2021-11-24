@@ -7,7 +7,7 @@ nav-menu: true
 description: null
 image: null
 author: null
-show_tile: True
+show_title: true
 pagination: 
   enabled: true
   category: serie
