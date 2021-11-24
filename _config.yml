@@ -26,11 +26,11 @@ description: >- # this means to ignore newlines until "baseurl:"
   Google search results) and in your feed.xml site description.
 baseurl: "/ahsubs" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+# twitter_username: jekyllrb
+# github_username:  jekyll
 
 # Build settings
-theme: minima
+# theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap
@@ -44,14 +44,21 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+- "*.gemspec"
+- LICENSE.md
+- CONTRIBUTING.md
+- README.md 
+
+socials:
+  GitHub: https://github.com/DarkArtek
+  GitLab:
+  Google-Plus:
+  Instagram:
+  LinkedIn: https://www.linkedin.com/in/luca-forzutti
+  Twitter: https://twitter.com/ffxivita_hanna
+  Facebook:
+  Slack:
+
+sass:
+  style: compressed
