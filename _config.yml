@@ -29,6 +29,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 tiles-source: pages # accepts "posts" or "pages"
 tiles-count: 6
 twitter_username: jekyllrb
+permalink: /:slug/
 github_username:  jekyll
 
 # Build settings
@@ -38,6 +39,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-admin
   - jekyll-paginate-v2
+  - jekyll-seo-tag
 markdown: kramdown
 sass:
   style: compressed
@@ -63,7 +65,7 @@ sass:
 include:
  - _pages
 
- # Pagination
+# Pagination
 pagination:
  enabled: true
  debug: true

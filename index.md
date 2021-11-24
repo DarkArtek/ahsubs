@@ -1,5 +1,5 @@
 ---
-title: AHSubs
+title: Home
 layout: home
 landing-title: 'Benvenuti in AHSubs'
 description: null
@@ -8,4 +8,3 @@ author: null
 show_tile: false
 ---
 
-    
