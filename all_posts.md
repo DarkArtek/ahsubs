@@ -1,16 +1,16 @@
 ---
 layout: allposts
-title: All posts
-landing-title: 'All posts'
+title: Tutti i Posts
+landing-title: 'Tutti i posts'
 permalink: /posts/
 nav-menu: true
 description: null
 image: null
 author: null
-show_tile: false
+show_tile: true
 pagination: 
   enabled: true
-  permalink: /:num/
+  permalink: /:slug/
   sort_field: 'date'
   sort_reverse: true
 ---
