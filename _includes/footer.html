@@ -2,27 +2,16 @@
 <section id="contact">
 	<div class="inner">
 		<section>
-			Lista release
+            <h2>Ultimi Posts</h2>
+            {% for my_page in site.posts %}
+            {% if my_page.title and my_page.autogen == nil %}
+            <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+            {% endif %}
+          {% endfor %}
 		</section>
 		<section class="split">
 			<section>
-				<div class="contact-method">
-					<span class="icon alt fa-envelope"></span>
-					<h3>Email</h3>
-					<a href="mailto:{{ site.email }}">{{ site.email }}</a>
-				</div>
-			</section>
-			<section>
-				<div class="contact-method">
-					<span class="icon alt fa-facebook"></span>
-					<h3>Facebook</h3>
-					<a href="{{ site.facebook }}">{{ site.facebook }}</a>
-				</div>
-			</section>
-			<section>
-				<div class="contact-method">
-					<span class="icon alt fa-home"></span>
-				</div>
+                <h2>Ultime Releases</h2>
 			</section>
 		</section>
 	</div>
