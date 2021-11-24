@@ -8,6 +8,12 @@
 <loc>http://localhost:4000/ahsubs/about/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/ahsubs/all_posts.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/ahsubs/_pages/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/ahsubs/</loc>
 </url>
 </urlset>

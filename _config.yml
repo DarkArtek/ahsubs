@@ -35,6 +35,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-admin
+  - jekyll-paginate
 paginate: 5
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -55,3 +56,6 @@ paginate: 5
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+include:
+ - _pages
+ - release

@@ -1,0 +1,14 @@
+name: Generazione Sito Giornaliera
+on:
+ schedule:
+  - cron: "0 0 * * *"
+
+jobs:
+  github-pages:
+    name: Sito
+    runs-on: ubuntu-latest
+    steps:
+     - uses: actions/checkout@v2
+     - uses: helaili/jekyll-action@v2
+       with:
+        token: ${{ secrets.GITHUB_TOKEN }}
