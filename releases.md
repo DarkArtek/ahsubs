@@ -10,7 +10,7 @@ author: null
 show_tile: false
 pagination: 
   enabled: true
-  category: release
+  category: rilascio
   permalink: /:num/
   sort_field: 'date'
   sort_reverse: true

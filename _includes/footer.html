@@ -3,7 +3,7 @@
 	<div class="inner">
 		<section>
             <h2>Ultimi Posts</h2>
-            {% for my_page in site.posts %}
+            {% for my_page in site.categories.update %}
             {% if my_page.title and my_page.autogen == nil %}
             <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
             {% endif %}
@@ -12,6 +12,11 @@
 		<section class="split">
 			<section>
                 <h2>Ultime Releases</h2>
+				{% for post in site.categories.rilascio %}
+				{% if post.title and post.autogen == nil %}
+				<a class="page-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+            	{% endif %}
+          		{% endfor %}
 			</section>
 		</section>
 	</div>
