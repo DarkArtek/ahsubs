@@ -38,7 +38,7 @@ pagination:
    before: 2
    after: 2
  extension: html
- indexpage: 'main'
+ indexpage: 'index'
 autopages:
   enabled: false
   layouts:
