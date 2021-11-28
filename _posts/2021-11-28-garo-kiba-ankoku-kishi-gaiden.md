@@ -3,7 +3,7 @@ title: 'Garo Kiba Ankoku Kishi Gaiden'
 categories:
 - serie
 layout: post
-date: '2021-11-28 23:16:55'
+date: '2021-11-28 22:19:43'
 image: garo_kiba_gaiden.jpeg
 ---
 
