@@ -11,7 +11,7 @@ show_title: true
 pagination: 
   enabled: true
   category: serie
-  permalink: /:slug/
+  permalink: /:num/
   sort_field: 'date'
   sort_reverse: true
 ---

@@ -1,6 +1,5 @@
 ---
 title: Garo Makai Senki
-permalink: /makai-senki/
 layout: post
 image: garo_makai_senki.jpg
 categories:

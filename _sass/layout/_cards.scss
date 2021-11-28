@@ -1,0 +1,17 @@
+.card {
+    margin-bottom: 2em;
+    border: none;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.8);
+    transition: all 0.3s ease;
+  
+    .image {
+      img {
+        height: 220px;
+        object-fit: cover;
+        object-position: center;
+        @media screen and (max-width: $on-palm) {
+          width: 100%;
+        }
+      }
+    }
+  }

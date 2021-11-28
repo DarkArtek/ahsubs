@@ -17,23 +17,23 @@
           <div class="row">
             <div class="table-wrapper">
               <table>
-                <!-- <thead>
+                <thead>
                   {% for post in paginator.posts %}
 	                {% if post.title != 404 %}
-	               <th><a class="post-link" href="{{ post.url | relative_url }}" style="text-align: center">{{ post.title | escape }}</a></th>
+	               <th><a class="post-link" href="{{ post.url | relative_url }}" style="text-align: center"><center>{{ post.title | escape }}</center></a></th>
                  {% endif %}
                  {% endfor %}
-	              </thead> -->
+	              </thead>
                 <tbody>
+                  <tr>
                 {% for img in paginator.posts %}
                 {% if img.title != 404 %}
-                <div class="4u">
-                  <tr>
-	                  <td>{% if img.image %}<span class="image fit"><a class="post-link" href="{{ img.url | relative_url }}"><img src="{{ site.baseurl }}/{{ img.image }}" alt="" /></a></span>{% endif %}</td>
-                  </tr>
-                </div>
+	                  <td>{% if img.image %}<a class="post-link" href="{{ img.url | relative_url }}"><center><img src="{{ site.baseurl }}/{{ img.image }}" alt="" width="90%" height="90%" class="image"/></center></a>{% endif %}</td>
+                    <!-- <td><span style="vertical-align: middle; text-align: center;">{{img.title}}</span></td> -->
 	               {% endif %}
                 {% endfor %}
+              </tr>
+            </div>
               </tbody>
             </table>
           </div>
