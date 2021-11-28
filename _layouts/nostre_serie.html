@@ -19,7 +19,7 @@
                 <thead>
                   {% for post in paginator.posts %}
 	                {% if post.title != 404 %}
-	               <th><span style="background-image: url({{ '/assets' | prepend: site.relative_url | append: post.image }}); background-size: cover;" class="image fit"><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></th>
+	               <th><span style="background-image: url({{ '/assets' | relative_url | append: post.image }}); background-size: cover;" class="image fit"><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></th>
                  {% endif %}
                  {% endfor %}
 	              </thead>
