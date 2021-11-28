@@ -19,15 +19,15 @@
                 <thead>
                   {% for post in paginator.posts %}
 	                {% if post.title != 404 %}
-	               <th><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></th>
+	               <th><span style="background-image: url{{post.image.url}}; background-size: cover;" class="image fit"><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></th>
                  {% endif %}
                  {% endfor %}
 	              </thead>
                 <tbody>
-                {% for posts in paginator.posts %}
-                {% if post.title != 404 %}
+                {% for img in paginator.posts %}
+                {% if img.title != 404 %}
                 <tr>
-	                 <td>{% if post.image %}<span class="image fit"><img src="{{ site.baseurl }}/{{ post.image }}" alt="" /></span>{% endif %}</td>
+	                 <td>{% if img.image %}<span class="image fit"><img src="{{ site.baseurl }}/{{ img.image }}" alt="" /></span>{% endif %}</td>
                 </tr>
 	               {% endif %}
                 {% endfor %}
