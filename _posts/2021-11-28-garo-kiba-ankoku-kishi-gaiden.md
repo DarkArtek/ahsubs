@@ -1,5 +1,5 @@
 ---
-title: 'Garo: Kiba Ankoku Kishi Gaiden'
+title: 'Garo Kiba Ankoku Kishi Gaiden'
 categories:
 - serie
 layout: post
