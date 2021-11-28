@@ -10,7 +10,7 @@ author: null
 show_tile: true
 pagination: 
   enabled: true
-  permalink: /:slug/
+  permalink: /:num/
   sort_field: 'date'
   sort_reverse: true
 ---
