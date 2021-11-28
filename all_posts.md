@@ -2,7 +2,7 @@
 layout: allposts
 title: Tutti i Posts
 landing-title: 'Tutti i posts'
-permalink: /posts/
+permalink: /all-posts/
 nav-menu: false
 description: null
 image: null
