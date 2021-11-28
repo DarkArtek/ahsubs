@@ -16,19 +16,21 @@
 	       <div class="inner">
             <div class="table-wrapper">
               <table>
-                <thead>
+                <!-- <thead>
                   {% for post in paginator.posts %}
 	                {% if post.title != 404 %}
 	               <th><a class="post-link" href="{{ post.url | relative_url }}" style="text-align: center">{{ post.title | escape }}</a></th>
                  {% endif %}
                  {% endfor %}
-	              </thead>
+	              </thead> -->
                 <tbody>
                 {% for img in paginator.posts %}
                 {% if img.title != 404 %}
-                <tr>
-	                 <td>{% if img.image %}<span class="image main" style="width: 50% !important; height: 50% !important; align-items: center;"><a class="post-link" href="{{ post.url | relative_url }}"><img src="{{ site.baseurl }}/{{ img.image }}" alt="" /></a></span>{% endif %}</td>
-                </tr>
+                <div class="4u">
+                  <tr>
+	                  <td>{% if img.image %}<span class="image fit"><a class="post-link" href="{{ img.url | relative_url }}"><img src="{{ site.baseurl }}/{{ img.image }}" alt="" /></a></span>{% endif %}</td>
+                  </tr>
+                </div>
 	               {% endif %}
                 {% endfor %}
               </tbody>
