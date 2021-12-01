@@ -1,5 +1,5 @@
 ---
-title: Star Trek Prodigy Ep 01 -02
+title: Star Trek Prodigy 01 -02
 layout: post
 categories:
 - rilascio
