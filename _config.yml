@@ -9,7 +9,7 @@ tiles-source: posts # accepts "posts" or "pages"
 tiles-count: 4
 twitter_username: jekyllrb
 permalink: /:slug/
-theme: forty_jekyll_theme
+theme: 
 github_username:  jekyll
 plugins:
   - jekyll-feed
