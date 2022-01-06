@@ -1,17 +1,16 @@
 title: AHSubs
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Siamo un gruppo di fansub specializzato principalmente in Tokusatsu. Principalmente abbiamo tradotto ogni singola serie e film
+  di Garo. Siamo attivi dal 2001 come fansunb generale e dal 2014 ci siamo specializzati nel Tokusatsu Garo. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 tiles-source: posts # accepts "posts" or "pages"
 tiles-count: 4
 twitter_username: jekyllrb
 permalink: /:slug/
-github_username:  jekyll
 theme: forty_jekyll_theme
+github_username:  jekyll
 plugins:
   - jekyll-feed
   - jekyll-sitemap
