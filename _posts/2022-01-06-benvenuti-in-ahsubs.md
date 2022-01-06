@@ -2,7 +2,7 @@
 title: Benvenuti in AHSubs
 categories:
   - update
-image: garo_byakuya_no_maju.jpg
+image: /logo_ahsubs.jpeg
 date: 2022-01-06 18:33:22
 layout: post
 ---
