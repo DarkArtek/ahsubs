@@ -2,7 +2,7 @@ title: AHSubs
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Siamo un gruppo di fansub specializzato in Tokusatsu. Abbiamo tradotto ogni singola serie e film
-  di Garo ad eccezione della prima serie licenziata ancora nel nostro paese. Siamo attivi dal 2001 come fansunb generale e dal 2014 ci siamo specializzati nel Tokusatsu Garo. 
+  di Garo ad eccezione della prima serie licenziata ancora nel nostro paese. Siamo attivi dal 2004 come fansunb generale e dal 2014 ci siamo specializzati nel Tokusatsu Garo. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 tiles-source: posts # accepts "posts" or "pages"
