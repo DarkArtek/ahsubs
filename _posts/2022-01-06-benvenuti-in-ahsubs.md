@@ -1,11 +1,12 @@
 ---
 title: Benvenuti in AHSubs
 categories:
-  - update
-image: /logo_ahsubs.jpeg
-date: 2022-01-06 18:33:22
+- update
+image: logo_ahsubs.jpeg
+date: '2022-01-06 18:33:22 +0000'
 layout: post
 ---
+
 Benvenuti in AHSubs.
 
 Come vedete, questo &egrave; un sito totalmente nuovo e dobbiamo ancora popolarlo.&nbsp;
