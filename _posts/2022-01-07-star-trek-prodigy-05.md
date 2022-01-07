@@ -10,4 +10,4 @@ Imprigionati in un pianeta che cerca di ucciderli, l'equipaggio della Protostar 
 
 &nbsp;
 
-Link Diretto (720p) \| Link Diretto (1080p) \| [Torrent (720p)](https://nyaa.si/view/1474840){: target="_blank" rel="noopener noreferrer"} \| [Torrent (1080p)](https://nyaa.si/view/1474839){: target="_blank" rel="noreferrer noopener"}
+[Link Diretto (720p)](https://drive.google.com/file/d/1MHLfagwJP57j3nVuzpvp90WG_E0OXGCY/view?usp=sharing){: target="_blank" rel="noopener noreferrer"} \| [Link Diretto (1080p)](https://drive.google.com/file/d/1DgYc2SxQiT-wH0NQ_19LzA8ttw5P7kBa/view?usp=sharing){: target="_blank" rel="noopener noreferrer"} \| [Torrent (720p)](https://nyaa.si/view/1474840){: target="_blank" rel="noopener noreferrer"} \| [Torrent (1080p)](https://nyaa.si/view/1474839){: target="_blank" rel="noreferrer noopener"}
