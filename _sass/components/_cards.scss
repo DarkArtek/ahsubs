@@ -1,17 +1,91 @@
 .card {
-    margin-bottom: 2em;
-    border: none;
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0.8);
-    transition: all 0.3s ease;
-  
-    .image {
-      img {
-        height: 220px;
-        object-fit: cover;
-        object-position: center;
-        @media screen and (min-width: 760px) {
-          width: 100%;
-        }
-      }
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-clip: border-box;
+  @include border-radius($card-border-radius);
+  > hr {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  > .list-group {
+    border-top: inherit;
+    border-bottom: inherit;
+    &:first-child {
+      border-top-width: 0;
+      @include border-top-radius($card-inner-border-radius);
+    }
+    &:last-child {
+      border-bottom-width: 0;
+      @include border-bottom-radius($card-inner-border-radius);
     }
   }
+  > .card-header + .list-group, > .list-group + .card-footer {
+    border-top: 0;
+  }
+}
+
+.card-body {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: $card-spacer-x;
+}
+
+.card-title {
+  margin-bottom: $card-spacer-y;
+}
+
+.card-subtitle {
+  margin-top: -$card-spacer-y * .5;
+  margin-bottom: 0;
+}
+
+.card-text:last-child {
+  margin-bottom: 0;
+}
+
+.card-header {
+  padding: $card-spacer-y $card-spacer-x;
+  margin-bottom: 0; // Removes the default margin-bottom of <hN>
+  &:first-child {
+    @include border-radius($card-inner-border-radius $card-inner-border-radius 0 0);
+  }
+}
+.card-footer {
+  padding: $card-spacer-y $card-spacer-x;
+  &:last-child {
+    @include border-radius(0 0 $card-inner-border-radius $card-inner-border-radius);
+  }
+}
+
+.card-header-tabs {
+  margin-right: -$card-spacer-x * .5;
+  margin-bottom: -$card-spacer-y;
+  margin-left: -$card-spacer-x * .5;
+  border-bottom: 0;
+}
+
+.card-header-pills {
+  margin-right: -$card-spacer-x * .5;
+  margin-left: -$card-spacer-x * .5;
+}
+
+.card-img-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: $card-img-overlay-padding;
+  @include border-radius($card-inner-border-radius);
+}
+
+.card-img, .card-img-top {
+  @include border-top-radius($card-inner-border-radius);
+}
+
+.card-img, .card-img-bottom {
+  @include border-bottom-radius($card-inner-border-radius);
+}
