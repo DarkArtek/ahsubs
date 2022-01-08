@@ -51,6 +51,7 @@ autopages:
   collections:
    makai-senki:
     output: true
+    permalink: /:collection/:name
    goldstorm:
     output: true
    garo-movies:
