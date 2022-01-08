@@ -9,7 +9,7 @@ tiles-source: posts # accepts "posts" or "pages"
 tiles-count: 4
 timezone: Europe/Rome
 twitter_username: jekyllrb
-permalink: /:slug/
+permalink: /page/:num/
 theme: 
 github_username:  jekyll
 plugins:
@@ -48,6 +48,26 @@ autopages:
   slugify:
     mode: 'default'
     case: 'true'
+  collections:
+   makai-senki:
+    output: true
+    permalink: /makai-senki/:path/
+   goldstorm:
+    output: true
+    permalink: /goldstorm/:path/
+   garo-movies:
+    output: true
+    permalink: /movies/:path/
+   makai-no-hana:
+    output: true
+    permalink: /makainohana/:path/
+   terasu-mono:
+    output: true
+    permalink: /terasumono/:path/
+   retsuden:
+    output: true
+    permalink: /retsuden/:path/
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
