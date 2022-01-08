@@ -9,7 +9,7 @@ tiles-source: posts # accepts "posts" or "pages"
 tiles-count: 4
 timezone: Europe/Rome
 twitter_username: jekyllrb
-permalink: /page/:num/
+permalink: /:slug/
 theme: 
 github_username:  jekyll
 plugins:
