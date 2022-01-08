@@ -5,7 +5,7 @@ categories:
   - serie
   - rilascio
 date: 2022-01-08 07:50:00 +0100
-image: /uploads/biku.jpg
+image: biku.jpg
 ---
 Spin off della serie Makai No Hana, Biku: Yamigirinochi si concentra sulle avventure di Bikuu, sacerdotessa Makai incaricata di dare la caccia ai sacerdoti e sacerdotesse Makai che hanno abbandonato la retta via. Accompagnata da Daichi, toccher&agrave; a lei risolvere la situazione.
 
