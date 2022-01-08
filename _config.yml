@@ -51,22 +51,16 @@ autopages:
   collections:
    makai-senki:
     output: true
-    permalink: /makai-senki/
    goldstorm:
     output: true
-    permalink: /goldstorm/
    garo-movies:
     output: true
-    permalink: /movies/
    makai-no-hana:
     output: true
-    permalink: /makainohana/
    terasu-mono:
     output: true
-    permalink: /terasumono/
    retsuden:
     output: true
-    permalink: /retsuden/
 
 # Exclude from processing.
 # The following items will not be processed, by default.
