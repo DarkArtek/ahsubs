@@ -5,7 +5,6 @@
   min-width: 0;
   word-wrap: break-word;
   background-clip: border-box;
-  @include border-radius($card-border-radius);
   > hr {
     margin-right: 0;
     margin-left: 0;
@@ -15,11 +14,9 @@
     border-bottom: inherit;
     &:first-child {
       border-top-width: 0;
-      @include border-top-radius($card-inner-border-radius);
     }
     &:last-child {
       border-bottom-width: 0;
-      @include border-bottom-radius($card-inner-border-radius);
     }
   }
   > .card-header + .list-group, > .list-group + .card-footer {
