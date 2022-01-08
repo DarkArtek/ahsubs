@@ -54,14 +54,19 @@ autopages:
     permalink: /:collection/:name
    goldstorm:
     output: true
+    permalink: /:collection/:name
    garo-movies:
     output: true
+    permalink: /:collection/:name
    makai-no-hana:
     output: true
+    permalink: /:collection/:name
    terasu-mono:
     output: true
+    permalink: /:collection/:name
    retsuden:
     output: true
+    permalink: /:collection/:name
 
 # Exclude from processing.
 # The following items will not be processed, by default.
